@@ -18,7 +18,8 @@ def get_numbers_ticket(
 
 
 lottery_numbers = get_numbers_ticket(
-    1, 80, 10
+    10, 20, 6
 )  # variable assignment call function with valid argument
 print("Ваші лотерейні числа:", lottery_numbers)  # output returned list
+
 
