@@ -10,7 +10,7 @@ def get_days_from_today(date: str) -> int:  # definition function
         ).date()  # convert date string into date in format datetime.datetime
         date_now = dtdt.today().date()  # date today in format datetime.datetime
         delta_date_now = (
-            date - date_now
+            date_now - date
         )  # difference date input and date_now in format datetime.timedelta
         return delta_date_now.days  # return int number in days
     except ValueError:
