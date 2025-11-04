@@ -1,9 +1,8 @@
 import random  # import random module
 
 
-def get_numbers_ticket(
-    min: int, max: int, quantity: int
-) -> list:  # define function with three integer parameters
+# define function with three integer parameters
+def get_numbers_ticket(min: int, max: int, quantity: int) -> list:
     unique_numbers = set()  # initialized empty set for unique elements
     if (1 <= min < max <= 1000) and ((max - min) + 1 >= quantity):  # check conditions
         #  while loop that continues running until unique_numbers set contains required number of elements
